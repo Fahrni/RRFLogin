@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  RRFLogin
+
+  Created by Rob Fahrni on 10/5/14.
+  Copyright (c) 2014 Apple Core Labs. All rights reserved.
+*/
+"OK" = "OK";
+"RRFLogin" = "RRFLogin";
+"Error" = "Error";
+"An unknown error occured" = "An unknown error occured";
+"Congratulations, you logged into the fancy service!" = "Congratulations, you logged into the fancy service!";
+"Sorry, login failed. Check your username and password." = "Sorry, login failed. Check your username and password.";
+"A username is required to log in" = "A username is required to log in";
+"A password is required to log in" = "A password is required to log in";

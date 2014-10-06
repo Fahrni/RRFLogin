@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C465D845D0DFCC21741D009 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 846CBC33BF6005B8677507AE /* libPods.a */; };
+		D48EA49A19E23A55006DE946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48EA49919E23A55006DE946 /* Foundation.framework */; };
+		D48EA49C19E23A55006DE946 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48EA49B19E23A55006DE946 /* CoreGraphics.framework */; };
+		D48EA49E19E23A55006DE946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48EA49D19E23A55006DE946 /* UIKit.framework */; };
+		D48EA4A419E23A55006DE946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D48EA4A219E23A55006DE946 /* InfoPlist.strings */; };
+		D48EA4A619E23A55006DE946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EA4A519E23A55006DE946 /* main.m */; };
+		D48EA4AA19E23A55006DE946 /* RRFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EA4A919E23A55006DE946 /* RRFAppDelegate.m */; };
+		D48EA4AD19E23A55006DE946 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48EA4AB19E23A55006DE946 /* Main_iPhone.storyboard */; };
+		D48EA4B019E23A55006DE946 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48EA4AE19E23A55006DE946 /* Main_iPad.storyboard */; };
+		D48EA4B319E23A55006DE946 /* RRFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EA4B219E23A55006DE946 /* RRFLoginViewController.m */; };
+		D48EA4B519E23A55006DE946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48EA4B419E23A55006DE946 /* Images.xcassets */; };
+		D48EA4BC19E23A55006DE946 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48EA4BB19E23A55006DE946 /* XCTest.framework */; };
+		D48EA4BD19E23A55006DE946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48EA49919E23A55006DE946 /* Foundation.framework */; };
+		D48EA4BE19E23A55006DE946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48EA49D19E23A55006DE946 /* UIKit.framework */; };
+		D48EA4C619E23A55006DE946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D48EA4C419E23A55006DE946 /* InfoPlist.strings */; };
+		D48EA4C819E23A55006DE946 /* RRFLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EA4C719E23A55006DE946 /* RRFLoginTests.m */; };
+		D48EA4D819E24033006DE946 /* RRFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EA4D719E24033006DE946 /* RRFHTTPClient.m */; };
+		D48EA4DB19E24650006DE946 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D48EA4DA19E24650006DE946 /* Localizable.strings */; };
+		D48EA4DF19E25E66006DE946 /* launch2X.png in Resources */ = {isa = PBXBuildFile; fileRef = D48EA4DD19E25E66006DE946 /* launch2X.png */; };
+		D48EA4E019E25E66006DE946 /* launchR4.png in Resources */ = {isa = PBXBuildFile; fileRef = D48EA4DE19E25E66006DE946 /* launchR4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48EA4BF19E23A55006DE946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48EA48E19E23A55006DE946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48EA49519E23A55006DE946;
+			remoteInfo = RRFLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A3781BAA792E2381E6B63BA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6E52402AC9E780FE16356562 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		846CBC33BF6005B8677507AE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48EA49619E23A55006DE946 /* RRFLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRFLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48EA49919E23A55006DE946 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D48EA49B19E23A55006DE946 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D48EA49D19E23A55006DE946 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D48EA4A119E23A55006DE946 /* RRFLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFLogin-Info.plist"; sourceTree = "<group>"; };
+		D48EA4A319E23A55006DE946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D48EA4A519E23A55006DE946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D48EA4A719E23A55006DE946 /* RRFLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRFLogin-Prefix.pch"; sourceTree = "<group>"; };
+		D48EA4A819E23A55006DE946 /* RRFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFAppDelegate.h; sourceTree = "<group>"; };
+		D48EA4A919E23A55006DE946 /* RRFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRFAppDelegate.m; sourceTree = "<group>"; };
+		D48EA4AC19E23A55006DE946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D48EA4AF19E23A55006DE946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D48EA4B119E23A55006DE946 /* RRFLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFLoginViewController.h; sourceTree = "<group>"; };
+		D48EA4B219E23A55006DE946 /* RRFLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRFLoginViewController.m; sourceTree = "<group>"; };
+		D48EA4B419E23A55006DE946 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D48EA4BA19E23A55006DE946 /* RRFLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRFLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48EA4BB19E23A55006DE946 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D48EA4C319E23A55006DE946 /* RRFLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFLoginTests-Info.plist"; sourceTree = "<group>"; };
+		D48EA4C519E23A55006DE946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D48EA4C719E23A55006DE946 /* RRFLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRFLoginTests.m; sourceTree = "<group>"; };
+		D48EA4D419E23D53006DE946 /* RRFLoginConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFLoginConst.h; sourceTree = "<group>"; };
+		D48EA4D619E24033006DE946 /* RRFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRFHTTPClient.h; sourceTree = "<group>"; };
+		D48EA4D719E24033006DE946 /* RRFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRFHTTPClient.m; sourceTree = "<group>"; };
+		D48EA4D919E24287006DE946 /* RRFUtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFUtl.h; sourceTree = "<group>"; };
+		D48EA4DA19E24650006DE946 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D48EA4DD19E25E66006DE946 /* launch2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch2X.png; path = resources/launch2X.png; sourceTree = SOURCE_ROOT; };
+		D48EA4DE19E25E66006DE946 /* launchR4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchR4.png; path = resources/launchR4.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48EA49319E23A55006DE946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EA49C19E23A55006DE946 /* CoreGraphics.framework in Frameworks */,
+				D48EA49E19E23A55006DE946 /* UIKit.framework in Frameworks */,
+				D48EA49A19E23A55006DE946 /* Foundation.framework in Frameworks */,
+				3C465D845D0DFCC21741D009 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48EA4B719E23A55006DE946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EA4BC19E23A55006DE946 /* XCTest.framework in Frameworks */,
+				D48EA4BE19E23A55006DE946 /* UIKit.framework in Frameworks */,
+				D48EA4BD19E23A55006DE946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10853F5FD3D76CA9B2AE9016 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E52402AC9E780FE16356562 /* Pods.debug.xcconfig */,
+				1A3781BAA792E2381E6B63BA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D48EA48D19E23A55006DE946 = {
+			isa = PBXGroup;
+			children = (
+				D48EA49F19E23A55006DE946 /* RRFLogin */,
+				D48EA4C119E23A55006DE946 /* RRFLoginTests */,
+				D48EA49819E23A55006DE946 /* Frameworks */,
+				D48EA49719E23A55006DE946 /* Products */,
+				10853F5FD3D76CA9B2AE9016 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D48EA49719E23A55006DE946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA49619E23A55006DE946 /* RRFLogin.app */,
+				D48EA4BA19E23A55006DE946 /* RRFLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48EA49819E23A55006DE946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA49919E23A55006DE946 /* Foundation.framework */,
+				D48EA49B19E23A55006DE946 /* CoreGraphics.framework */,
+				D48EA49D19E23A55006DE946 /* UIKit.framework */,
+				D48EA4BB19E23A55006DE946 /* XCTest.framework */,
+				846CBC33BF6005B8677507AE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48EA49F19E23A55006DE946 /* RRFLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA4D319E23D2D006DE946 /* App */,
+				D48EA4D119E23B25006DE946 /* Views */,
+				D48EA4D519E2400E006DE946 /* Network */,
+				D48EA4A019E23A55006DE946 /* Supporting Files */,
+				D48EA4DC19E25E54006DE946 /* Resources */,
+			);
+			path = RRFLogin;
+			sourceTree = "<group>";
+		};
+		D48EA4A019E23A55006DE946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA4A119E23A55006DE946 /* RRFLogin-Info.plist */,
+				D48EA4A219E23A55006DE946 /* InfoPlist.strings */,
+				D48EA4A519E23A55006DE946 /* main.m */,
+				D48EA4A719E23A55006DE946 /* RRFLogin-Prefix.pch */,
+				D48EA4DA19E24650006DE946 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48EA4C119E23A55006DE946 /* RRFLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA4C719E23A55006DE946 /* RRFLoginTests.m */,
+				D48EA4C219E23A55006DE946 /* Supporting Files */,
+			);
+			path = RRFLoginTests;
+			sourceTree = "<group>";
+		};
+		D48EA4C219E23A55006DE946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA4C319E23A55006DE946 /* RRFLoginTests-Info.plist */,
+				D48EA4C419E23A55006DE946 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48EA4D119E23B25006DE946 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA4D219E23B2D006DE946 /* Login */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D48EA4D219E23B2D006DE946 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA4B119E23A55006DE946 /* RRFLoginViewController.h */,
+				D48EA4B219E23A55006DE946 /* RRFLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D48EA4D319E23D2D006DE946 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA4D419E23D53006DE946 /* RRFLoginConst.h */,
+				D48EA4D919E24287006DE946 /* RRFUtl.h */,
+				D48EA4A819E23A55006DE946 /* RRFAppDelegate.h */,
+				D48EA4A919E23A55006DE946 /* RRFAppDelegate.m */,
+				D48EA4AB19E23A55006DE946 /* Main_iPhone.storyboard */,
+				D48EA4AE19E23A55006DE946 /* Main_iPad.storyboard */,
+				D48EA4B419E23A55006DE946 /* Images.xcassets */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		D48EA4D519E2400E006DE946 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA4D619E24033006DE946 /* RRFHTTPClient.h */,
+				D48EA4D719E24033006DE946 /* RRFHTTPClient.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		D48EA4DC19E25E54006DE946 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA4DD19E25E66006DE946 /* launch2X.png */,
+				D48EA4DE19E25E66006DE946 /* launchR4.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48EA49519E23A55006DE946 /* RRFLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48EA4CB19E23A55006DE946 /* Build configuration list for PBXNativeTarget "RRFLogin" */;
+			buildPhases = (
+				060C001E1C879CB6DEAB5AF4 /* Check Pods Manifest.lock */,
+				D48EA49219E23A55006DE946 /* Sources */,
+				D48EA49319E23A55006DE946 /* Frameworks */,
+				D48EA49419E23A55006DE946 /* Resources */,
+				46011737C556695B80D6B62C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRFLogin;
+			productName = RRFLogin;
+			productReference = D48EA49619E23A55006DE946 /* RRFLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48EA4B919E23A55006DE946 /* RRFLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48EA4CE19E23A55006DE946 /* Build configuration list for PBXNativeTarget "RRFLoginTests" */;
+			buildPhases = (
+				D48EA4B619E23A55006DE946 /* Sources */,
+				D48EA4B719E23A55006DE946 /* Frameworks */,
+				D48EA4B819E23A55006DE946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48EA4C019E23A55006DE946 /* PBXTargetDependency */,
+			);
+			name = RRFLoginTests;
+			productName = RRFLoginTests;
+			productReference = D48EA4BA19E23A55006DE946 /* RRFLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48EA48E19E23A55006DE946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RRF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Apple Core Labs";
+				TargetAttributes = {
+					D48EA4B919E23A55006DE946 = {
+						TestTargetID = D48EA49519E23A55006DE946;
+					};
+				};
+			};
+			buildConfigurationList = D48EA49119E23A55006DE946 /* Build configuration list for PBXProject "RRFLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48EA48D19E23A55006DE946;
+			productRefGroup = D48EA49719E23A55006DE946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48EA49519E23A55006DE946 /* RRFLogin */,
+				D48EA4B919E23A55006DE946 /* RRFLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48EA49419E23A55006DE946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EA4DF19E25E66006DE946 /* launch2X.png in Resources */,
+				D48EA4DB19E24650006DE946 /* Localizable.strings in Resources */,
+				D48EA4B019E23A55006DE946 /* Main_iPad.storyboard in Resources */,
+				D48EA4E019E25E66006DE946 /* launchR4.png in Resources */,
+				D48EA4B519E23A55006DE946 /* Images.xcassets in Resources */,
+				D48EA4AD19E23A55006DE946 /* Main_iPhone.storyboard in Resources */,
+				D48EA4A419E23A55006DE946 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48EA4B819E23A55006DE946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EA4C619E23A55006DE946 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060C001E1C879CB6DEAB5AF4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46011737C556695B80D6B62C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48EA49219E23A55006DE946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EA4A619E23A55006DE946 /* main.m in Sources */,
+				D48EA4AA19E23A55006DE946 /* RRFAppDelegate.m in Sources */,
+				D48EA4B319E23A55006DE946 /* RRFLoginViewController.m in Sources */,
+				D48EA4D819E24033006DE946 /* RRFHTTPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48EA4B619E23A55006DE946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EA4C819E23A55006DE946 /* RRFLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48EA4C019E23A55006DE946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48EA49519E23A55006DE946 /* RRFLogin */;
+			targetProxy = D48EA4BF19E23A55006DE946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D48EA4A219E23A55006DE946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48EA4A319E23A55006DE946 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D48EA4AB19E23A55006DE946 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48EA4AC19E23A55006DE946 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D48EA4AE19E23A55006DE946 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48EA4AF19E23A55006DE946 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D48EA4C419E23A55006DE946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48EA4C519E23A55006DE946 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D48EA4C919E23A55006DE946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D48EA4CA19E23A55006DE946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48EA4CC19E23A55006DE946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E52402AC9E780FE16356562 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRFLogin/RRFLogin-Prefix.pch";
+				INFOPLIST_FILE = "RRFLogin/RRFLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D48EA4CD19E23A55006DE946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3781BAA792E2381E6B63BA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRFLogin/RRFLogin-Prefix.pch";
+				INFOPLIST_FILE = "RRFLogin/RRFLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D48EA4CF19E23A55006DE946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RRFLogin.app/RRFLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRFLogin/RRFLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RRFLoginTests/RRFLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D48EA4D019E23A55006DE946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RRFLogin.app/RRFLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRFLogin/RRFLogin-Prefix.pch";
+				INFOPLIST_FILE = "RRFLoginTests/RRFLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48EA49119E23A55006DE946 /* Build configuration list for PBXProject "RRFLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48EA4C919E23A55006DE946 /* Debug */,
+				D48EA4CA19E23A55006DE946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48EA4CB19E23A55006DE946 /* Build configuration list for PBXNativeTarget "RRFLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48EA4CC19E23A55006DE946 /* Debug */,
+				D48EA4CD19E23A55006DE946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48EA4CE19E23A55006DE946 /* Build configuration list for PBXNativeTarget "RRFLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48EA4CF19E23A55006DE946 /* Debug */,
+				D48EA4D019E23A55006DE946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48EA48E19E23A55006DE946 /* Project object */;
+}
